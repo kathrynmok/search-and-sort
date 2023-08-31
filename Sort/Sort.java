@@ -13,10 +13,11 @@ public class Sort
      */
     public static void Random()
     {
+        double[] arrayOfRandomNumbers = new double[100];
         for (int i=0; i<100; i++) {
-            double rand = Math.random();
-            System.out.println(rand);
-            
+            double doubleRandom = Math.random() * 99;
+            arrayOfRandomNumbers[i] = doubleRandom;
+            System.out.println(arrayOfRandomNumbers[i]);
         }
     }
 
