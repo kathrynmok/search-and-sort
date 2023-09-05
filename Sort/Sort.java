@@ -17,11 +17,15 @@ public class Sort
         for (int i=0; i<100; i++) {
             double doubleRandom = Math.random() * 99;
             arrayOfRandomNumbers[i] = doubleRandom;
-            System.out.println(arrayOfRandomNumbers[i]);
         }
-    }
+        for (int i=0; i < 100; i++) {
+            if (arrayOfRandomNumbers[i] < arrayOfRandomNumbers[i=i+1]) {
+                System.out.println("YAY");
+                }
+        }
 
     
     
     
+        }
 }
