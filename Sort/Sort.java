@@ -19,9 +19,13 @@ public class Sort
             arrayOfRandomNumbers[i] = doubleRandom;
         }
         for (int i=0; i < 100; i++) {
-            if (arrayOfRandomNumbers[i] < arrayOfRandomNumbers[i=i+1]) {
-                System.out.println("YAY");
+            if (arrayOfRandomNumbers[i] > arrayOfRandomNumbers[i+1]) {
+                double temp = arrayOfRandomNumbers[i+1];
+                arrayOfRandomNumbers[i+1] = arrayOfRandomNumbers[i];
+                arrayOfRandomNumbers[i] = temp;
                 }
+            System.out.println(arrayOfRandomNumbers[i]);
+
         }
 
     
