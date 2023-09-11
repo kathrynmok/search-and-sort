@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Sort
-comment0.text=\r\n\ Class\ for\ sorting\ numbers\ from\ smallest\ to\ greatest.\r\n\r\n\ @Kathryn\ Mokhov\r\n\ version\ 08/29/2023\r\n
+comment0.text=\n\ Class\ for\ sorting\ numbers\ from\ smallest\ to\ greatest.\n\n\ @Kathryn\ Mokhov\n\ version\ 08/29/2023\n
 comment1.params=
 comment1.target=void\ Random()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Sort\r\n
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Sort\n
 numComments=2

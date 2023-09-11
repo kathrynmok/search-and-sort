@@ -23,8 +23,8 @@ public class Sort
             arrayOfRandomNumbers[i] = doubleRandom;
         }
         System.out.println(Arrays.toString(arrayOfRandomNumbers));
-        for (int k=0; k < 1000; k++){
-            for (int i=0; i < 99; i++) {
+        for (int k=0; k < arrayOfRandomNumbers.length; k++){
+            for (int i=0; i < arrayOfRandomNumbers.length-1; i++) {
                 isChanged = true;
                 while (isChanged == true)
                 {
